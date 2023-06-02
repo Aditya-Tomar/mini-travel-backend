@@ -1,4 +1,4 @@
-import { App } from "./config/app";
+import { App } from "../server/config/app";
 import cluster from "cluster";
 import * as os from "os";
 
@@ -6,10 +6,8 @@ import * as os from "os";
 //     await app.initializeApp();
 // }
 
-export async function handler(){
-    const app = new App();
-    return await app.initializeApp();
-}
+export const handler =  new App().initializeApp();
+
 // // if ( cluster.isPrimary ) {
 // //     console.log('Here');
 // //     const cpus = os.cpus.length;
