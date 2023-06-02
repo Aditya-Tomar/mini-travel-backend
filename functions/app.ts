@@ -27,14 +27,17 @@ export const handler =  new App().initializeApp();
 
 
 // import express from "express";
-    // "start": "nodemon --exec npx ts-node ./server/index.ts",
 
 // const app = express();
 
 // app.get("/api/destinations/list", (req, res) => {
-//     res.send("Hello Worlds")
-// })
-
-// app.listen(3000, () => {
-//     console.log("Server listening");
-// })
+    //     res.send("Hello Worlds")
+    // })
+    
+    // app.listen(3000, () => {
+        //     console.log("Server listening");
+        // })
+       
+       
+       
+        // "start": "nodemon --exec npx ts-node ./server/index.ts",
