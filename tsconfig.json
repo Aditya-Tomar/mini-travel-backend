@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {"esModuleInterop": true,
+    "module": "commonjs",
+        "skipLibCheck": true,
+        "outDir": "./dist/server",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+        "target": "es2015",
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["es2017", "dom"],
+        "downlevelIteration": true,
+        "resolveJsonModule": true
+    },
+    "angularCompilerOptions": {
+        "disableTypeScriptVersionCheck": true
+    },
+    "include": ["server/**/*"],
+    "exclude": ["node_modules",]
+}

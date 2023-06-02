@@ -1,0 +1,22 @@
+{ 
+    "categories": [
+    {
+        "name": "Adventure & Outdoors"
+    },
+    {
+        "name": "Heritage & Culture"
+    },
+    {
+        "name": "Nature & Landscapes"
+    },
+    {
+        "name": "Wildlife & Safaris"
+    },
+    {
+        "name": "Wine & Food"
+    },
+    {
+        "name": "Beaches"
+    }
+]
+}

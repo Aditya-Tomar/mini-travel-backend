@@ -1,0 +1,41 @@
+{
+   "destinations": [
+    {
+        "country": "India",
+        "regions": [
+            "North India",
+            "South India",
+            "East India",
+            "Himalayas"
+        ]
+    },
+    {
+        "country": "South America",
+        "regions": [
+            "Argentina",
+            "Brazil",
+            "Chile",
+            "Colombia"
+        ]
+    },
+    {
+        "country": "North America",
+        "regions": [
+            "Alaska",
+            "Hawai"
+        ]
+    },
+    {
+        "country": "Eurpoe",
+        "regions": [
+            "France",
+            "Germany",
+            "Greece",
+            "Iceland",
+            "Itlay",
+            "Portugal",
+            "Spain"
+        ]
+    }
+]
+}
