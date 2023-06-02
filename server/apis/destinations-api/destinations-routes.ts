@@ -5,7 +5,7 @@ export class DestinationsRoutes {
 
     constructor(){}
 
-    initRoutes(): void {
+    initRoutes() {
         const router: any = express.Router();
 
         router.get('/list', DestinationsRepository.getListOfAllDestinations );

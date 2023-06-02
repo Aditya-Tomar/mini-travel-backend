@@ -1,4 +1,4 @@
-import { App } from "../server/config/app";
+import { App } from "./config/app";
 import cluster from "cluster";
 import * as os from "os";
 

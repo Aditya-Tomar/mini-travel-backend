@@ -5,7 +5,7 @@ export class QueriesRoutes {
 
     constructor(){}
 
-    initRoutes(): void {
+    initRoutes() {
         const router: any = express.Router();
 
         router.get('/list', QueriesRepository.getListOfAllQueries );

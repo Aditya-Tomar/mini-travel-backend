@@ -5,7 +5,7 @@ export class CategoriesRoutes {
 
     constructor(){}
 
-    initRoutes(): void {
+    initRoutes() {
         const router = express.Router();
 
         router.get("/list", CategoriesRepository.getCategoryList );

@@ -3,7 +3,7 @@
     "compilerOptions": {"esModuleInterop": true,
     "module": "commonjs",
         "skipLibCheck": true,
-        "outDir": "./dist/server",
+        "outDir": "./dist",
         "sourceMap": true,
         "declaration": false,
         "moduleResolution": "Node",

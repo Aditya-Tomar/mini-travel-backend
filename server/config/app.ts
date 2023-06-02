@@ -3,7 +3,6 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 import bodyParser from "body-parser";
-import serverless from "serverless-http";
 
 interface IApp {
     app: any;
@@ -36,7 +35,6 @@ export class App implements IApp {
         this.setRoutes();
         this.startListening();
 
-        return serverless(this.app);
     }
 
     setExpress() : void {
